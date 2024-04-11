@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.transaction-form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.transaction-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.transaction-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blockchain {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.nodes-play button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nodes-play button:hover {
+    background-color: #45a049;
+}
+
+.transaction-log {
+    margin-top: 20px;
+}
+
+.transaction-log h2,
+.data h2 {
+    margin-bottom: 10px;
+}
+
+#transactionLog {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 200px; /* Optional: adjust height as needed */
+    overflow-y: auto; /* Optional: add vertical scroll if content exceeds container height */
+}
+
+.data {
+    margin-top: 20px;
+}
+
+.data p {
+    font-size: 16px;
+    line-height: 1.6;
+}
